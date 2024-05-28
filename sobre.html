@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="website html css javascript">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="Alex Sandro">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/css/all.min.css">
+  	<link rel="stylesheet" type="text/css" href="./src/css/estilo.css">
+	<title> Sobre  | Website html css e javascript</title>
+</head>
+
+
+<!-- estar pronto a página principal agora vou começar a criar outras páginas voltar no hórario = 01:300:00 -->
+
+
+<body>
+	<!-- header -->
+	<header style="background-image: url('./src/img/background-sobre1.jpg')">
+		<!-- container -->
+		<div class="container">
+			<nav>
+				<a href="index.html">
+					<img src="./src/img/logo.png" alt="logo">
+				</a>
+				<ul class="ul">
+					<a href="index.html">Home</a>
+					<a href="sobre.html">Sobre</a>
+					<a href="servicos.html">Serviços</a>
+					<a class="btn" href="contato.html">Contato</a>
+					<div class="close-icon" onclick="closeMenu()">
+						<i class="fas fa-times-circle"></i>
+					</div>
+				</ul>
+				<div class="menu-icon" onclick="openMenu()">
+					<i class="fas fa-bars"></i>
+				</div>
+			</nav>
+			<section class="banner">
+				<div class="banner-text">
+					<h1>Sobre</h1>
+					
+				</div>
+			</section>
+		</div>
+		<!-- fim container -->
+	</header>
+	<!-- fim header -->
+
+    <!--sobre-->
+    <section class="sobre">
+        <!--container-->
+        <div class="container">
+            <div class="sobre-text">
+                <h3>Estamos no mercado a mais de 8 anos</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit in deserunt minima, cum et, iste ad nisi perferendis molestiae doloremque beatae soluta? Ducimus quas molestias quibusdam, nobis dolorem illo quod?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit in deserunt minima, cum et, iste ad nisi perferendis molestiae doloremque beatae soluta? Ducimus quas molestias quibusdam, nobis dolorem illo quod?</p>
+                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+            </div>
+            <div class="sobre-img">
+                <img src="./src/img/sobre.jpg" alt="">
+            </div>
+        </div>
+        <!--fim container-->
+    </section>
+    <!--fim sobre-->
+		
+	<!--footer-->
+	<footer class="rodape">
+		<!--container-->
+		<div class="container">
+			<!--link-->
+			<div class="link">
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://github.com/Alex-Sandro3791" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+			<p>Desenvolvido por Alex Sandro</p>
+			<!--fim link-->
+		</div>
+		<!--fim container-->
+	</footer>
+	<!--fim footer-->
+
+
+
+
+
+	<script src="./src/js/all.min.js"></script>
+	<script src="./src/js/main.js"></script>
+</body>
+</html>

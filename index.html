@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="website html css javascript">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="Alex Sandro">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/css/all.min.css">
+  	<link rel="stylesheet" type="text/css" href="./src/css/estilo.css">
+	<title>Website html css e javascript</title>
+</head>
+
+
+<!-- estar pronto a página principal agora vou começar a criar outras páginas voltar no hórario = 01:55:00 -->
+
+
+<body>
+	<!-- header -->
+	<header style="background-image: url('./src/img/background-home.jpg')">
+		<!-- container -->
+		<div class="container">
+			<nav>
+				<a href="index.html">
+					<img src="./src/img/logo.png" alt="logo">
+				</a>
+				<ul class="ul">
+					<a href="index.html">Home</a>
+					<a href="sobre.html">Sobre</a>
+					<a href="servicos.html">Serviços</a>
+					<a class="btn" href="contato.html">Contato</a>
+					<div class="close-icon" onclick="closeMenu()">
+						<i class="fas fa-times-circle"></i>
+					</div>
+				</ul>
+				<div class="menu-icon" onclick="openMenu()">
+					<i class="fas fa-bars"></i>
+				</div>
+			</nav>
+			<section class="banner">
+				<div class="banner-text">
+					<h1>Whitepace</h1>
+					<p>
+						Construa sua marca, conquiste o mundo sem habilidade de código ou desing necessárias.
+					</p>
+					<a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+				</div>
+			</section>
+		</div>
+		<!-- fim container -->
+	</header>
+	<!-- fim header -->
+		<!-- faça mais -->
+	<section class="faca-mais">
+		<!-- container -->
+		<div class="container">
+			<div class="faca-mais-text">
+				<h3>Faça mais com Whitepace</h3>
+				<p>
+					Criação d websites, loja virtual, blogs para pequenas, médias e grandes empresas ter um site online nunca foi tão fácil.
+				</p>
+				<a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+			</div>
+
+			<div class="faca-mais-img">
+				<img src="./src/img/img-1.png">
+			</div>
+			
+		</div>
+		<!-- fim container -->
+	</section>
+		<!-- fim faça mais -->
+
+
+		<!-- faça mais-2 -->
+	<section class="faca-mais">
+		<!-- container -->
+		<div class="container">
+			<div class="faca-mais-img">
+				<img src="./src/img/img-2.png">
+			</div>
+
+			<div class="faca-mais-text">
+				<h3>Ter um website nunca foi tão fácil</h3>
+				<p>
+					Agora com a nossa empresa ter um website é algo simplesmente fácil basta entrar em contato e nós vamos desenvolver o seu website em tempo record para você comerçar a comquistar o mundo.
+				</p>
+				<a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+			</div>
+		</div>
+		<!-- fim container -->
+	</section>
+		<!-- fim faça mais-2 -->
+
+		<!-- depoimento -->
+	<section class="depoimentos">
+		<!-- container -->
+		<div class="container">
+			<h3>Nossos Depoimentos</h3>
+			<p>Leia o que nossos clientes falam de nós pra o Mundo!</p>
+			<!--cards-->
+			<div class="cards">
+				<!--card-item-->
+				<div class="card-item">
+					<img src="./src/img/alex.png" alt="Alex">
+					<p class="nome-user">Alex Sandro</p>
+					<p class="depoimento-user">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sed labore odio enim impedit commodi velit vero tenetur, corporis ut facere veritatis aut. Sunt ad atque corporis non, velit unde.</p>
+					<div class="estrelas">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+				</div>
+				
+
+				<div class="card-item">
+					<img src="./src/img/alex.png" alt="Alex">
+					<p class="nome-user">Alex Sandro</p>
+					<p class="depoimento-user">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sed labore odio enim impedit commodi velit vero tenetur, corporis ut facere veritatis aut. Sunt ad atque corporis non, velit unde.</p>
+					<div class="estrelas">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+				</div>
+
+				<div class="card-item">
+					<img src="./src/img/alex.png" alt="Alex">
+					<p class="nome-user">Alex Sandro</p>
+					<p class="depoimento-user">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sed labore odio enim impedit commodi velit vero tenetur, corporis ut facere veritatis aut. Sunt ad atque corporis non, velit unde.</p>
+					<div class="estrelas">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+				</div>
+				<!--fim card-item-->
+			</div>
+			<!--fim cards-->
+		</div>
+		<!-- fim container -->
+	</section>
+	<!--fim  depoimento -->
+
+		<!-- clientes -->
+		<section class="clientes">
+			<!--container-->
+			<div class="container">
+				<h3>Nossos Clientes</h3>
+				<p>Prestamos serviços para todo tipo de empresa ou prjeto, olhe alguns dos nossos Clientes </p>
+				<div>
+					<img src="./src/img/apple.png" alt="">
+					<img src="./src/img/microsoft.png" alt="">
+					<img src="./src/img/slack.png" alt="">
+					<img src="./src/img/google.png" alt="">
+				</div>
+			</div>
+			<!--fim container-->
+		</section>
+		<!--fim clientes -->
+
+			<!-- faça mais -->
+	<section class="faca-mais">
+		<!-- container -->
+		<div class="container">
+			<div class="faca-mais-text">
+				<h3>Tenha um website seguro</h3>
+				<p>
+					Nós trabalhamos com tecnologia atualizadas, rápidas e as mais seguras desse mercado nós fazemos backup e manutenção no seu site em tempo record.
+				</p>
+				<a href="contato.html" class="btn animate-btn">Entre em Contato</a>
+			</div>
+
+			<div class="faca-mais-img">
+				<img src="./src/img/security.png">
+			</div>
+			
+		</div>
+		<!-- fim container -->
+	</section>
+		<!-- fim faça mais -->
+
+
+	<!--footer-->
+	<footer class="rodape">
+		<!--container-->
+		<div class="container">
+			<!--link-->
+			<div class="link">
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://github.com/Alex-Sandro3791" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+			<p>Desenvolvido por Alex Sandro</p>
+			<!--fim link-->
+		</div>
+		<!--fim container-->
+	</footer>
+	<!--fim footer-->
+
+
+
+
+
+	<script src="./src/js/all.min.js"></script>
+	<script src="./src/js/main.js"></script>
+</body>
+</html>
